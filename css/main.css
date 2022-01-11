@@ -83,24 +83,13 @@ CLASES
 /***********
 TELEFONOS
 ***********/
-@media only screen and (max-width: 640px){
-	#contenido{
-		width: 100%;
-		height: auto;
-	}
-	#izq, #der{
-		width: 70%;
-		height: auto;
-		background-color: navy;
-	}
-	#articulo{
-		height: 1100px;
-	}
+@media only screen and (max-width: 460px){
+	
 }
 /***********
 TABLETA
 ***********/
-@media only screen and (min-width: 768px) and (max-width: 1280px){
+@media only screen and (min-width: 461px) and (max-width: 768px){
 	#contenido{
 		width: 90%;
 		height: auto;
@@ -109,43 +98,28 @@ TABLETA
 		width: 90%;
 		height: auto;
 		clear: both;
-		background-color: white;
-	}
-	#izq{
-		margin-left: 20px;
-	}
-	#der{
-		margin-right: 20px;
 	}
 	#articulo{
 		height: 1000px;
 	}
-	p{
-		font-size: 1em;
-		line-height: 1.4em;
-	}
-	h1{
-		font-size: 1.5em;
-	}
-	h2{
-		font-size: 1.2em;
-	}
 	#encabezado{
 		height: 60px;
+		background-color: orange;
 	}
-	.imagenIzq{
-		float: left;
-		margin-right: 15px;
+	p{
+		font-size: 0.9em;
 	}
-	.imagenDer{
-		float: right; 
-		margin-left: 15px;
+	h1{
+		font-size: 1.1em;
+	}
+	h2{
+		font-size: 1em;
 	}
 }
 /***********
 COMPUTADORA
 ***********/
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 769px){
 	#contenido{
 		width: 80%;
 		height: 660px;
