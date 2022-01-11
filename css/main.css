@@ -89,9 +89,10 @@ TELEFONOS
 		height: auto;
 	}
 	#izq, #der{
+		clear: both;
 		width: 90%;
 		height: auto;
-		clear: both;
+		margin: 0 5%;
 	}
 	#encabezado{
 		height: 90px;
@@ -116,7 +117,7 @@ TABLETA
 		clear: both;
 	}
 	#articulo{
-		height: 1000px;
+		height: 900px;
 	}
 	#encabezado{
 		height: 60px;
@@ -126,10 +127,18 @@ TABLETA
 		font-size: 0.9em;
 	}
 	h1{
-		font-size: 1.1em;
+		font-size: 1.4em;
 	}
 	h2{
-		font-size: 1em;
+		font-size: 1.2em;
+	}
+	.imagenIzq{
+		float: left;
+		margin-right: 15px;
+	}
+	.imagenDer{
+		float: right;
+		margin-left: 15px;
 	}
 }
 /***********
